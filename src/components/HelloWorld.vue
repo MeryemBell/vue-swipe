@@ -4,7 +4,7 @@
       <button @click="next">prvs</button>
       <div style="width: 400px; height: 200px; border: 1px solid black">
         <div v-for="image in images" :key="image.id">
-          <img src="" /><button @click="previous">></button>
+          <img src="#" /><button @click="previous">></button>
         </div>
       </div>
     </SwipeBox>
